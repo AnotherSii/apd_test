@@ -1,0 +1,3 @@
+programs / functions to run
+
+Starting MongoDB: sudo systemctl start mongod

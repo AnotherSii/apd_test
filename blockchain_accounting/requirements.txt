@@ -1,0 +1,7 @@
+django==2.2
+gunicorn
+django-heroku
+lampy
+cython
+contracting
+cilantro_ee

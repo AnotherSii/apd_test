@@ -1,0 +1,9 @@
+curl -X POST -d '{
+  "sender": "me",
+  "contract": "lamden_tutorial",
+  "method": "transfer",
+  "args": "{\"amount\":10,\"receiver\":\"you\"}"
+}' -v -i 'http://localhost:3737/'
+
+
+curl -X POST -d '{"sender": "me", "contract":"lamden_tutorial", "method":"transfer", "args": {"amount":10, "receiver":"you"}}' -v -i 'http://0.0.0.0:3737/'
